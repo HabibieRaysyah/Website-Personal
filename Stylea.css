@@ -61,16 +61,22 @@ ul li:hover a::before{
 
 
 .Judul {
-    background-image: url(img-artikel/istockphoto-1187626125-170667a.jpg);
+    background-color: #232323;
     height: 55rem;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .artikel {
-    transform: translateY(25rem);
+    transform: translateY(17rem);
     text-align: center;
     font-size: 3rem;
+}
+
+.artikel h1:hover{
+    scale: 1.1;
+    transition: .7s linear;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
 }
 
 .artikel h1{    
